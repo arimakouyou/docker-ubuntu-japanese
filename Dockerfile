@@ -8,4 +8,4 @@ RUN echo "Asia/Tokyo" > /etc/timezone \
  && apt-get update \
  && apt-get install -y software-properties-common vim wget curl unzip zip build-essential python git git-svn subversion \
  && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/*
-
+ENV LANG ja_JP.UTF-8
